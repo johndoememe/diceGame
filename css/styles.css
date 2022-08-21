@@ -11,6 +11,7 @@ body {
 button {
   border-radius: 25%;
   border-color: #9cb4cc;
+  background-color: #d3d9df;
   padding: 0.5rem;
   color: #2e2e2e;
 }
