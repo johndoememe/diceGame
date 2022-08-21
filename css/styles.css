@@ -1,0 +1,59 @@
+/* ELEMENTS */
+body {
+  background-color: #9cb4cc;
+  color: #2e2e2e;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 0 5%;
+
+}
+
+button {
+  border-radius: 25%;
+  border-color: #9cb4cc;
+  padding: 0.5rem;
+  color: #2e2e2e;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color:#9cb4cc
+}
+
+.icon{ 
+  font-size: 1.4rem;
+}
+
+/* CONTAINER */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* HEADINGS */
+.heading {
+  color: #293461;
+  font-family: "Black Ops One", cursive;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.subHeading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* DIVS */
+.playerOne,
+.playerTwo {
+  display: inline-block;
+  padding: 0 5rem;
+}
+
+.playerOne img,
+.playerTwo img {
+  width: 13rem;
+}
