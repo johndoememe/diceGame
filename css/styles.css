@@ -5,33 +5,39 @@ body {
   font-family: "Oswald", sans-serif;
   text-align: center;
   padding: 0 5%;
-
 }
 
+/* BUTTON */
 button {
   border-radius: 25%;
   border-color: #9cb4cc;
   background-color: #d3d9df;
   padding: 0.5rem;
   color: #2e2e2e;
+  margin-top: 2.5rem;
 }
 
-button:hover{
+button:focus {
+  color: #2e2e2e;
+  border-color: #9cb4cc;
+  background-color: #d3d9df;
+}
+
+button:hover {
   cursor: pointer;
   background-color: #2e2e2e;
-  color:#9cb4cc
+  color: #9cb4cc;
 }
 
-.icon{ 
+.icon {
   font-size: 1.4rem;
 }
 
 /* CONTAINER */
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* HEADINGS */
@@ -57,4 +63,56 @@ button:hover{
 .playerOne img,
 .playerTwo img {
   width: 13rem;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  body {
+    padding: 5% 2.5%;
+  }
+  .heading {
+    padding-bottom: 2%;
+  }
+}
+
+@media (max-width: 920px) {
+  html {
+    font-size: 12px;
+  }
+  body {
+    padding: 15% 2.5%;
+  }
+  .heading {
+    font-size: 5rem;
+    padding-bottom: 4%;
+  }
+  .playerOne img,
+  .playerTwo img {
+    width: 13rem;
+  }
+}
+
+@media (max-width: 670px) {
+  html {
+    font-size: 10px;
+  }
+  body {
+    padding: 50% 0%;
+  }
+  .heading {
+    padding-bottom: 5%;
+  }
+  .subHeading {
+    font-size: 1.75rem;
+  }
+  .playerOne ,
+  .playerTwo  {
+    padding: 2rem;
+  }  
+  .playerOne img,
+  .playerTwo img {
+    width: 12rem;
+  }
 }
